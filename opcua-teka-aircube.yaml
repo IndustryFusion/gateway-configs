@@ -13,11 +13,6 @@ app_config: |
                   "node_id": "ns=4",
                   "identifier": "i=40",
                   "parameter": "electric-power"
-              },
-              {
-                  "node_id": "ns=4",
-                  "identifier": "i=24",
-                  "parameter": "operating-hours"
               }
            ]
        }
