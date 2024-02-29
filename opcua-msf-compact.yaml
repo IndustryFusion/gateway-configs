@@ -1,4 +1,5 @@
 ip_address: '192.168.49.194'
+main_topic: ''
 protocol: opcua
 app_config: | 
   {
@@ -56,3 +57,7 @@ gateway_id: urn:ngsi-ld:asset:2:600
 keycloak_url: http://keycloak.local/auth/realms
 realm_password: sajYGsO735fQRRijlrjkXDrjS7RYIKEJ
 secure_config: 'false'
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionmqttdataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
