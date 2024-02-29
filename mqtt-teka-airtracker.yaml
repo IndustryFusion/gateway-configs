@@ -1,0 +1,43 @@
+ip_address: '192.168.49.26'
+protocol: mqtt
+app_config: | 
+    {
+       "fusionmqttdataservice": {
+           "specification": [
+              {
+                  "topic": "airtracker-74145/relay1",
+                  "key": [],
+                  "parameter": ["machine-state"]
+              },
+              {
+                  "topic": "airtracker-74145/dust",
+                  "key": [],
+                  "parameter": ["dustiness"]
+              },
+              {
+                  "topic": "airtracker-74145/temperature",
+                  "key": [],
+                  "parameter": ["temperature"]
+              },
+              {
+                  "topic": "airtracker-74145/humidity",
+                  "key": [],
+                  "parameter": ["humidity"]
+              },
+              {
+                  "topic": "airtracker-74145/noise",
+                  "key": [],
+                  "parameter": ["noise"]
+              }
+           ]
+       }
+    }
+
+pod_name: 'teka-airfilter-mqtt'
+pdt_mqtt_hostname: '192.168.49.154'
+pdt_mqtt_port: '1883'
+secure_config: 'false'
+device_id: urn:ngsi-ld:asset:2:602
+gateway_id: urn:ngsi-ld:asset:2:602
+keycloak_url: http://keycloak.local/auth/realms
+realm_password: sajYGsO735fQRRijlrjkXDrjS7RYIKEJ
