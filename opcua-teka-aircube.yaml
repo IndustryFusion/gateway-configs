@@ -26,3 +26,7 @@ device_id: urn:ngsi-ld:asset:2:604
 gateway_id: urn:ngsi-ld:asset:2:604
 keycloak_url: http://keycloak.local/auth/realms
 realm_password: sajYGsO735fQRRijlrjkXDrjS7RYIKEJ
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
