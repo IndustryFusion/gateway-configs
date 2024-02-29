@@ -33,7 +33,7 @@ app_config: |
        }
     }
 
-pod_name: 'teka-airfilter-mqtt'
+pod_name: 'teka-airtracker-mqtt'
 pdt_mqtt_hostname: '192.168.49.154'
 pdt_mqtt_port: '1883'
 secure_config: 'false'
