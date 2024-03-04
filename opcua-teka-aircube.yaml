@@ -19,13 +19,13 @@ app_config: |
     }
 
 pod_name: 'teka-aircube-opcua'
-pdt_mqtt_hostname: '192.168.49.154'
-pdt_mqtt_port: '1883'
-secure_config: 'false'
-device_id: urn:ngsi-ld:asset:2:604
-gateway_id: urn:ngsi-ld:asset:2:604
-keycloak_url: http://keycloak.local/auth/realms
-realm_password: sajYGsO735fQRRijlrjkXDrjS7RYIKEJ
+pdt_mqtt_hostname: 'devalerta.industry-fusion.com'
+pdt_mqtt_port: '8883'
+secure_config: 'true'
+device_id: urn:ngsi-ld:asset:2:089
+gateway_id: urn:ngsi-ld:asset:2:089
+keycloak_url: https://development.industry-fusion.com/auth/realms
+realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
 username_config: ''
 password_config: ''
 dataservice_image_config: fusionopcuadataservice:latest
