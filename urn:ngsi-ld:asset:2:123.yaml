@@ -1,0 +1,38 @@
+ip_address: 192.168.49.26
+main_topic: airtracker-74145/relay1
+protocol: mqtt
+app_config:
+  fusionmqttdataservice:
+    specification:
+      - topic: airtracker-74145/relay1
+        key: []
+        parameter:
+          - machine-state
+      - topic: airtracker-74145/dust
+        key: []
+        parameter:
+          - dustiness
+      - topic: airtracker-74145/temperature
+        key: []
+        parameter:
+          - temperature
+      - topic: airtracker-74145/humidity
+        key: []
+        parameter:
+          - humidity
+      - topic: airtracker-74145/noise
+        key: []
+        parameter:
+          - noise
+pod_name: teka-airtracker-mqtt
+pdt_mqtt_hostname: devalerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ngsi-ld:asset:2:123
+gateway_id: urn:ngsi-ld:asset:2:123
+keycloak_url: https://development.industry-fusion.com/auth/realms
+realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionmqttdataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
