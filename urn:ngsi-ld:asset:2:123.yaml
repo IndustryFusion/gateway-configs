@@ -34,7 +34,7 @@ app_config: |
        }
     }
  
-pod_name: 'teka-airtracker-mqtt'
+pod_name: 'teka-airtracker-mqtt2'
 pdt_mqtt_hostname: 'devalerta.industry-fusion.com'
 pdt_mqtt_port: '8883'
 secure_config: 'true'
