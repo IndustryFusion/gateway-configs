@@ -25,9 +25,9 @@ app_config:
         parameter:
           - noise
 pod_name: teka-airtracker-mqtt
-pdt_mqtt_hostname: devalerta.industry-fusion.com
+pdt_mqtt_hostname: devalerta.industry-fusion.com - checkkkkk
 pdt_mqtt_port: 8883
-secure_config: true
+secure_config: false
 device_id: urn:ngsi-ld:asset:2:789
 gateway_id: urn:ngsi-ld:asset:2:789
 keycloak_url: https://development.industry-fusion.com/auth/realms
