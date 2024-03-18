@@ -38,8 +38,8 @@ pod_name: 'teka-airtracker-mqtt'
 pdt_mqtt_hostname: 'devalerta.industry-fusion.com'
 pdt_mqtt_port: '8883'
 secure_config: 'true'
-device_id: urn:ngsi-ld:asset:2:101
-gateway_id: urn:ngsi-ld:asset:2:101
+device_id: urn:ngsi-ld:asset:2:312
+gateway_id: urn:ngsi-ld:asset:2:312
 keycloak_url: https://development.industry-fusion.com/auth/realms
 realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
 username_config: ''
