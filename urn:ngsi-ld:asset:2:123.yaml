@@ -1,5 +1,5 @@
 ip_address: '192.168.49.26'  
-main_topic: 'airtracker-74145/relay1'
+main_topic: ''
 protocol: mqtt
 app_config: | 
     {
