@@ -1,0 +1,16 @@
+ip_address: 145.786.90.09
+main_topic: ere
+protocol: no protocol
+app_config: ''
+pod_name: Metal Workpiece 3-undefined
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: true
+device_id: urn:ngsi-ld:asset:2:303
+gateway_id: urn:ngsi-ld:asset:2:303
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
