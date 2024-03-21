@@ -1,0 +1,16 @@
+ip_address: 192.288.899.90
+main_topic: reewrw
+protocol: mqtt
+app_config: ''
+pod_name: X2 Air filter-mqtt
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: false
+device_id: urn:ngsi-ld:asset:2:319
+gateway_id: urn:ngsi-ld:asset:2:319
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
