@@ -3,12 +3,12 @@ protocol: opcua
 app_config:
     fusionopcuadataservice:
         specification:
-          - node_id: "ns=4"
-            identifier: "i=39"
-            parameter: "machine-state"
-          - node_id: "ns=4"
-            identifier: "i=40"
-            parameter: "power-consumption"
+          - node_id: ns=4
+            identifier: i=39
+            parameter: machine-state
+          - node_id: ns=4
+            identifier: i=40
+            parameter: power-consumption
             
 pod_name: 'teka-aircube-opcua'
 pdt_mqtt_hostname: 'devalerta.industry-fusion.com'
