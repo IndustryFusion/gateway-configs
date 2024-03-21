@@ -1,38 +1,29 @@
 ip_address: '192.168.49.26'
 main_topic: 'airtracker-74145/relay1'
 protocol: mqtt
-app_config: | 
-    {
-       "fusionmqttdataservice": {
-           "specification": [
-              {
-                  "topic": "airtracker-74145/relay1",
-                  "key": [],
-                  "parameter": ["machine-state"]
-              },
-              {
-                  "topic": "airtracker-74145/dust",
-                  "key": [],
-                  "parameter": ["dustiness"]
-              },
-              {
-                  "topic": "airtracker-74145/temperature",
-                  "key": [],
-                  "parameter": ["temperature"]
-              },
-              {
-                  "topic": "airtracker-74145/humidity",
-                  "key": [],
-                  "parameter": ["humidity"]
-              },
-              {
-                  "topic": "airtracker-74145/noise",
-                  "key": [],
-                  "parameter": ["noise"]
-              }
-           ]
-       }
-    }
+app_config:
+    fusionmqttdataservice:
+        specification:
+          - topic: airtracker-74145/relay1
+            key: []
+            parameter:
+              - machine-state
+          - topic: airtracker-74145/dust
+            key: []
+            parameter:
+              - dustiness
+          - topic: airtracker-74145/temperature
+            key: []
+            parameter:
+              - temperature
+          - topic: airtracker-74145/humidity
+            key: []
+            parameter:
+              - humidity
+          - topic: airtracker-74145/noise
+            key: []
+            parameter:
+              - noise
 
 pod_name: 'teka-airtracker-mqtt'
 pdt_mqtt_hostname: 'devalerta.industry-fusion.com'
