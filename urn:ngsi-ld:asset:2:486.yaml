@@ -1,10 +1,10 @@
 ip_address: 121.345.895.67
 main_topic: ''
-app_config: '||tyryry'
+app_config: '|||tyryry'
 pod_name: ''
 pdt_mqtt_hostname: ''
 pdt_mqtt_port: 4545
-secure_config: false
+secure_config: true
 device_id: urn:ngsi-ld:asset:2:486
 gateway_id: urn:ngsi-ld:asset:2:486
 keycloak_url: ''
