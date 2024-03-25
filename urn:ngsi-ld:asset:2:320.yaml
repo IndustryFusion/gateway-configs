@@ -1,10 +1,10 @@
 ip_address: 121.453.567.67
 main_topic: ''
-protocol: opc-ua
-app_config: '|'
-pod_name: X2 Air tracker-opc-ua
+protocol: ''
+app_config: '||'
+pod_name: ''
 pdt_mqtt_hostname: ''
-pdt_mqtt_port: 0
+pdt_mqtt_port: 3434
 secure_config: true
 device_id: urn:ngsi-ld:asset:2:320
 gateway_id: urn:ngsi-ld:asset:2:320
