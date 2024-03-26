@@ -1,14 +1,32 @@
-ip_address: ''
+ip_address: '192.168.49.178'
 main_topic: ''
 protocol: opcua
 app_config: 
     fusionopcuadataservice:
         specification:
-          - node_id: ns=4
-            identifier: i=39
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.State
             parameter: machine-state
-          - node_id: ns=4
-            identifier: i=40
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.VoltageL1
+            parameter: voltage-l1
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.VoltageL2
+            parameter: voltage-l2
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.VoltageL3
+            parameter: voltage-l3
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL1
+            parameter: current-l1
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL2
+            parameter: current-l2
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL3
+            parameter: current-l3
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL3
             parameter: power-consumption
 pod_name: mse-smarfl-opc
 pdt_mqtt_hostname: devalerta.industry-fusion.com
@@ -20,5 +38,5 @@ keycloak_url: https://development.industry-fusion.com/auth/realms
 realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
 username_config: ''
 password_config: ''
-dataservice_image_config: fusionopcuadataservice:latest
+dataservice_image_config: fusionopcuadataservice:smartfl
 agentservice_image_config: iff-iot-agent:v0.0.2
