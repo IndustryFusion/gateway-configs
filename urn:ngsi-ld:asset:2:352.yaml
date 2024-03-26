@@ -1,0 +1,16 @@
+ip_address: ''
+main_topic: ''
+protocol: ''
+app_config: '|'
+pod_name: abc1  Metal Workpiece-undefined
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: false
+device_id: urn:ngsi-ld:asset:2:352
+gateway_id: urn:ngsi-ld:asset:2:352
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
