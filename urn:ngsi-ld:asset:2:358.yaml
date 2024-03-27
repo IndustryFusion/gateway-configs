@@ -31,7 +31,7 @@ app_config:
 pod_name: mse-mastercut-opc
 pdt_mqtt_hostname: devalerta.industry-fusion.com
 pdt_mqtt_port: 8883
-secure_config: ture
+secure_config: true
 device_id: urn:ngsi-ld:asset:2:358
 gateway_id: urn:ngsi-ld:asset:2:358
 keycloak_url: https://development.industry-fusion.com/auth/realms
