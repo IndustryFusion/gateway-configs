@@ -1,0 +1,42 @@
+ip_address: '192.168.49.196'
+main_topic: ''
+protocol: opcua
+app_config: 
+    fusionopcuadataservice:
+        specification:
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualState?msnc.mMov
+            parameter: machine-state
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualState?msnc.aSpd
+            parameter: cutter-head-speed
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualPosition?msnc.mAxX
+            parameter: machine-position-x
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualPosition?msnc.mAxY
+            parameter: machine-position-y
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualPosition?msnc.mAxZ
+            parameter: machine-position-z
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/RequiredTechParams?msnc.TP_NahrT[2]
+            parameter: voltage-l1
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/CuttingHeadStateObject?msnc.TC_Acur[0]
+            parameter: current-l1
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/Gas?msnc.Press[0]
+            parameter: power-consumption
+pod_name: mse-smarfl-opc
+pdt_mqtt_hostname: devalerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: ture
+device_id: urn:ngsi-ld:asset:2:358
+gateway_id: urn:ngsi-ld:asset:2:358
+keycloak_url: https://development.industry-fusion.com/auth/realms
+realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:smartfl
+agentservice_image_config: iff-iot-agent:v0.0.2
