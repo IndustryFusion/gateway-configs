@@ -1,16 +1,27 @@
-ip_address: ''
-main_topic: ''
-protocol: http
-app_config: '|'
-pod_name: AirCube-http
-pdt_mqtt_hostname: ''
-pdt_mqtt_port: 0
-secure_config: false
+ip_address: '192.168.49.151'
+protocol: opcua
+app_config:
+    fusionopcuadataservice:
+        specification:
+          - node_id: ns=4
+            identifier: i=39
+            parameter: machine-state
+          - node_id: ns=4
+            identifier: i=40
+            parameter: power-consumption
+          - node_id: ns=4
+            identifier: i=24
+            parameter: operating-hours
+            
+pod_name: 'teka-aircube-opcua'
+pdt_mqtt_hostname: 'devalerta.industry-fusion.com'
+pdt_mqtt_port: '8883'
+secure_config: 'true'
 device_id: urn:ngsi-ld:asset:2:347
 gateway_id: urn:ngsi-ld:asset:2:347
-keycloak_url: ''
-realm_password: ''
+keycloak_url: https://development.industry-fusion.com/auth/realms
+realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
 username_config: ''
 password_config: ''
-dataservice_image_config: ''
-agentservice_image_config: ''
+dataservice_image_config: fusionopcuadataservice:test-power-dev
+agentservice_image_config: iff-iot-agent:v0.0.2
