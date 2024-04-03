@@ -29,13 +29,13 @@ app_config:
             identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/Gas?msnc.Press[0]
             parameter: power-consumption
 pod_name: mse-mastercut-opc
-pdt_mqtt_hostname: devalerta.industry-fusion.com
+pdt_mqtt_hostname: emqx-platform.industry-fusion.com
 pdt_mqtt_port: 8883
 secure_config: true
 device_id: urn:ngsi-ld:asset:2:358
 gateway_id: urn:ngsi-ld:asset:2:358
-keycloak_url: https://development.industry-fusion.com/auth/realms
-realm_password: KFrqIcPfeC4zRFmQs3rJpZgszaJjOxet
+keycloak_url: https://platform.industry-fusion.com/auth/realms
+realm_password: HSJcjewUMcgsDkZeaWiFDQDr9TAynEs0
 username_config: ''
 password_config: ''
 dataservice_image_config: fusionopcuadataservice:smartfl
