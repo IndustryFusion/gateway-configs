@@ -1,4 +1,4 @@
-ip_address: opc.tcp://192.168.168.116:62548/Quickstarts/DataAccessServer
+ip_address: 192.168.168.116
 main_topic: ''
 protocol: opcua
 app_config: 
