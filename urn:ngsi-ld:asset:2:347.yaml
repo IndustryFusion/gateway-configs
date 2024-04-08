@@ -23,5 +23,5 @@ keycloak_url: https://development.industry-fusion.com/auth/realms
 realm_password: uWhIu0DePQrMk028TaycBolNrk5GCN2f
 username_config: ''
 password_config: ''
-dataservice_image_config: fusionopcuadataservice:test-power-dev
+dataservice_image_config: fusionopcuadataservice:aircube
 agentservice_image_config: iff-iot-agent:v0.0.2
