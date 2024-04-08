@@ -1,0 +1,21 @@
+ip_address: 192.168.2.183
+protocol: opcua
+app_config:
+    fusionopcuadataservice:
+        specification:
+          - node_id: ns=1
+            identifier: s=Write.PlantState[0]
+            parameter: machine-state
+    
+pod_name: ibeda-gcu-opc
+pdt_mqtt_hostname: emqx-platform.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ngsi-ld:asset:2:361
+gateway_id: urn:ngsi-ld:asset:2:361
+keycloak_url: https://platform.industry-fusion.com/auth/realms
+realm_password: HSJcjewUMcgsDkZeaWiFDQDr9TAynEs0
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
