@@ -42,6 +42,6 @@ gateway_id: urn:ngsi-ld:asset:2:361
 keycloak_url: https://platform.industry-fusion.com/auth/realms
 realm_password: HSJcjewUMcgsDkZeaWiFDQDr9TAynEs0
 username_config: integration
-password_config: #gcu01
+password_config: ""#gcu01""
 dataservice_image_config: fusionopcuadataservice:new
 agentservice_image_config: iff-iot-agent:v0.0.2
