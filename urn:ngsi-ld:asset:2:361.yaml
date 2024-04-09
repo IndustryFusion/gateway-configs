@@ -6,7 +6,33 @@ app_config:
           - node_id: ns=1
             identifier: s=Write.PlantState[0]
             parameter: machine-state
-    
+          - node_id: ns=1
+            identifier: s=Write.GasSourceAlarmPressure[0]
+            parameter: gms1-minimum-pressure
+          - node_id: ns=1
+            identifier: s=Write.GasSourceAlarmPressure[1]
+            parameter: gms2-minimum-pressure
+          - node_id: ns=1
+            identifier: s=Write.GasSourceAlarmPressure[2]
+            parameter: gms3-minimum-pressure
+          - node_id: ns=1
+            identifier: s=Write.SourceRightActPercentage[0]
+            parameter: gms1-right-tank-percentage
+          - node_id: ns=1
+            identifier: s=Write.SourceLeftActPercentage[0]
+            parameter: gms1-left-tank-percentage
+          - node_id: ns=1
+            identifier: s=Write.SourceRightActPercentage[1]
+            parameter: gms2-right-tank-percentage
+          - node_id: ns=1
+            identifier: s=Write.SourceLeftActPercentage[1]
+            parameter: gms2-left-tank-percentage
+          - node_id: ns=1
+            identifier: s=Write.SourceRightActPercentage[2]
+            parameter: gms3-right-tank-percentage
+          - node_id: ns=1
+            identifier: s=Write.SourceLeftActPercentage[2]
+            parameter: gms3-left-tank-percentage
 pod_name: ibeda-gcu-opc
 pdt_mqtt_hostname: emqx-platform.industry-fusion.com
 pdt_mqtt_port: 8883
