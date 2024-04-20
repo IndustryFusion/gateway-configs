@@ -20,7 +20,7 @@ secure_config: 'true'
 device_id: urn:ngsi-ld:asset:2:347
 gateway_id: urn:ngsi-ld:asset:2:347
 keycloak_url: https://development.industry-fusion.com/auth/realms
-realm_password: uWhIu0DePQrMk028TaycBolNrk5GCN2f
+realm_password: rvO5GYBdWpUJuXnMzL0TJchfAuPxMgh2
 username_config: ''
 password_config: ''
 dataservice_image_config: fusionopcuadataservice:aircube
