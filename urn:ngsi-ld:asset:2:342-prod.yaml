@@ -32,7 +32,7 @@ secure_config: 'true'
 device_id: urn:ngsi-ld:asset:2:342
 gateway_id: urn:ngsi-ld:asset:2:342
 keycloak_url: https://platform.industry-fusion.com/auth/realms
-realm_password: Es4y1DZry5rsIEHk27EYMZjx4KSBJ5tF
+realm_password: ijayxh6DGF2PINj1ldq33Whpma8yALd5
 username_config: ''
 password_config: ''
 dataservice_image_config: fusionmqttdataservice:latest
