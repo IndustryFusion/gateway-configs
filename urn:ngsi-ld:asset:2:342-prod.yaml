@@ -26,13 +26,13 @@ app_config:
               - noise
 
 pod_name: 'teka-airtracker-2-mqtt'
-pdt_mqtt_hostname: 'emqx-platform.industry-fusion.com'
+pdt_mqtt_hostname: 'alerta.industry-fusion.com'
 pdt_mqtt_port: '8883'
 secure_config: 'true'
 device_id: urn:ngsi-ld:asset:2:342
 gateway_id: urn:ngsi-ld:asset:2:342
-keycloak_url: https://platform.industry-fusion.com/auth/realms
-realm_password: ijayxh6DGF2PINj1ldq33Whpma8yALd5
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
 username_config: ''
 password_config: ''
 dataservice_image_config: fusionmqttdataservice:latest
