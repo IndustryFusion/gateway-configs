@@ -24,7 +24,7 @@ app_config:
               key: []
               parameter:
                 - noise
-pod_name: airTracker-39B58-mqtt-prod
+pod_name: airtracker-39b58-mqtt-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
 pdt_mqtt_port: 8883
 secure_config: true
