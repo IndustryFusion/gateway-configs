@@ -1,8 +1,8 @@
-ip_address: ''
+ip_address: '192.168.49.26'
 main_topic: ''
 protocol: mqtt
-app_config: |-
-  |fusionmqttdataservice:
+app_config:
+   fusionmqttdataservice:
           specification:
             - topic: airtracker-39B58/relay1
               key: []
@@ -24,9 +24,9 @@ app_config: |-
               key: []
               parameter:
                 - noise
-pod_name: AirTracker 39B58-mqtt
+pod_name: airTracker-39B58-mqtt-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
-pdt_mqtt_port: 0
+pdt_mqtt_port: 8883
 secure_config: true
 device_id: urn:ifric:ifx-eur-nld-ast-7f45675d-c3c9-5649-90a2-cae2d1736e1f
 gateway_id: urn:ifric:ifx-eur-nld-ast-7f45675d-c3c9-5649-90a2-cae2d1736e1f
