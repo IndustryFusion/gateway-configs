@@ -1,0 +1,38 @@
+ip_address: ''
+main_topic: ''
+protocol: mqtt
+app_config: |-
+  |fusionmqttdataservice:
+          specification:
+            - topic: airtracker-39B58/relay1
+              key: []
+              parameter:
+                - machine-state
+            - topic: airtracker-39B58/dust
+              key: []
+              parameter:
+                - dustiness
+            - topic: airtracker-39B58/temperature
+              key: []
+              parameter:
+                - temperature
+            - topic: airtracker-39B58/humidity
+              key: []
+              parameter:
+                - humidity
+            - topic: airtracker-39B58/noise
+              key: []
+              parameter:
+                - noise
+pod_name: AirTracker 39B58-mqtt
+pdt_mqtt_hostname: alerta.industry-fusion.com
+pdt_mqtt_port: 0
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-7f45675d-c3c9-5649-90a2-cae2d1736e1f
+gateway_id: urn:ifric:ifx-eur-nld-ast-7f45675d-c3c9-5649-90a2-cae2d1736e1f
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
