@@ -15,9 +15,6 @@ app_config:
             identifier: s=Write.GasSourceAlarmPressure[1]
             parameter: gms2-minimum-pressure
           - node_id: ns=1
-            identifier: s=Write.GasSourceAlarmPressure[2]
-            parameter: gms3-minimum-pressure
-          - node_id: ns=1
             identifier: s=Write.SourceRightActPercentage[0]
             parameter: gms1-right-tank-percentage
           - node_id: ns=1
@@ -30,11 +27,17 @@ app_config:
             identifier: s=Write.SourceLeftActPercentage[1]
             parameter: gms2-left-tank-percentage
           - node_id: ns=1
-            identifier: s=Write.SourceRightActPercentage[2]
-            parameter: gms3-right-tank-percentage
+            identifier: s=Write.TankActLiquidGasVolume[0]
+            parameter: gms1-liquid-gas-volume
           - node_id: ns=1
-            identifier: s=Write.SourceLeftActPercentage[2]
-            parameter: gms3-left-tank-percentage
+            identifier: s=Write.TankActLiquidGasVolume[1]
+            parameter: gms2-liquid-gas-volume
+          - node_id: ns=1
+            identifier: s=Write.SourceSwitchPressure[0]
+            parameter: gms1-source-switch-pressure
+          - node_id: ns=1
+            identifier: s=Write.SourceSwitchPressure[1]
+            parameter: gms2-source-switch-pressure
 pod_name: gcu-opc-ua-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
 pdt_mqtt_port: 8883
@@ -43,7 +46,7 @@ device_id: urn:ifric:ifx-eur-nld-ast-84975f3f-917b-5b89-8ef7-aa65a2f30f83
 gateway_id: urn:ifric:ifx-eur-nld-ast-84975f3f-917b-5b89-8ef7-aa65a2f30f83
 keycloak_url: https://alerta.industry-fusion.com/auth/realms
 realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
-username_config: 'integration'
+username_config: integration
 password_config: ''
-dataservice_image_config: fusionopcuadataservice:latest
+dataservice_image_config: fusionopcuadataservice:new-ibeda
 agentservice_image_config: iff-iot-agent:v0.0.2
