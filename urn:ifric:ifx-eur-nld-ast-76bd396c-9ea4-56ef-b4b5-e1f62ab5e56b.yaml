@@ -1,1 +1,46 @@
 
+ip_address: '192.168.49.26'
+main_topic: 'kjellberg/plasma/Q-Series/Q-3000/system/status/qunit/json'
+protocol: mqtt
+app_config:
+   fusionmqttdataservice:
+          specification:
+            - topic: kjellberg/plasma/Q-Series/Q-3000/system/status/qunit/json
+              key:
+                - DEVICE_STATUS
+              parameter:
+                - machine-state
+            - topic: kjellberg/plasma/Q-Series/Q-3000/consumption/power/json
+              key:
+                - POWER_SUPPLY
+              parameter:
+                - electric-power
+            - topic: kjellberg/plasma/Q-Series/Q-3000/parameter/actual/json
+              key:
+                - CUTTING_CURRENT
+                - CUTTING_VOLTAGE
+              parameter:
+                - current-strength-l1
+                - supply-voltage-l1
+            - topic: kjellberg/plasma/Q-Series/Q-3000/parameter/actual
+              key: 
+                - PG1
+              parameter:
+                - input-pressure
+            - topic: kjellberg/plasma/Q-Series/Q-3000/parameter/reference
+              key:
+                - PG1
+              parameter:
+                - static-input-pressure
+pod_name: q3000-mqtt-prod
+pdt_mqtt_hostname: alerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-76bd396c-9ea4-56ef-b4b5-e1f62ab5e56b
+gateway_id: urn:ifric:ifx-eur-nld-ast-76bd396c-9ea4-56ef-b4b5-e1f62ab5e56b
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionmqttdataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
