@@ -2,7 +2,6 @@ ip_address: '192.168.49.192'
 main_topic: ''
 protocol: opcua
 app_config:
-   app_config:
     fusionopcuadataservice:
         specification:
           - node_id: ns=1
