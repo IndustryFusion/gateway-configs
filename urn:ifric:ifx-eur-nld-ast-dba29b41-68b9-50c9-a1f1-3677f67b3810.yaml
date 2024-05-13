@@ -1,0 +1,33 @@
+ip_address: '192.168.49.196'
+main_topic: ''
+protocol: opcua
+app_config:
+    fusionopcuadataservice:
+        specification:
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualState?msnc.mMov
+            parameter: machine-state
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualState?msnc.aSpd
+            parameter: cutter-head-speed
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualPosition?msnc.mAxX
+            parameter: machine-position-x
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualPosition?msnc.mAxY
+            parameter: machine-position-y
+          - node_id: ns=2
+            identifier: s=1:MergedRootGroupNode/MsncCoreRootNode/ActualStateOfCuttingMachine/ActualPosition?msnc.mAxZ
+            parameter: machine-position-z
+pod_name: msf-compact-opc-ua-prod
+pdt_mqtt_hostname: alerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-dba29b41-68b9-50c9-a1f1-3677f67b3810
+gateway_id: urn:ifric:ifx-eur-nld-ast-dba29b41-68b9-50c9-a1f1-3677f67b3810
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
