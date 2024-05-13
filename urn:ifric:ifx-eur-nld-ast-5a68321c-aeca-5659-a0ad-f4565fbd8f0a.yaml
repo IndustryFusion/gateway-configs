@@ -1,0 +1,39 @@
+ip_address: '192.168.49.151'
+protocol: opcua
+app_config:
+    fusionopcuadataservice:
+        specification:
+          - node_id: ns=4
+            identifier: i=39
+            parameter: machine-state
+          - node_id: ns=4
+            identifier: i=40
+            parameter: power-consumption
+          - node_id: ns=4
+            identifier: i=24
+            parameter: operating-hours
+          - node_id: ns=4
+            identifier: i=42
+            parameter: input-pressure
+          - node_id: ns=4
+            identifier: i=47
+            parameter: motor-frequency
+          - node_id: ns=4
+            identifier: i=46
+            parameter: pressure-difference
+          - node_id: ns=4
+            identifier: i=43
+            parameter: volumentric-flow-rate
+            
+pod_name: aircube-opc-ua-prod
+pdt_mqtt_hostname: alerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-5a68321c-aeca-5659-a0ad-f4565fbd8f0a
+gateway_id: urn:ifric:ifx-eur-nld-ast-5a68321c-aeca-5659-a0ad-f4565fbd8f0a
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
