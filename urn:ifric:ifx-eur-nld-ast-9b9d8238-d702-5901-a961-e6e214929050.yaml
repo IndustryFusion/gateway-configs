@@ -1,29 +1,29 @@
 ip_address: '192.168.49.26'
-main_topic: 'shellypro3em-34987a466638/online'
+main_topic: 'shellypro3em-08d1f912f61c/online'
 protocol: mqtt
 app_config:
    fusionmqttdataservice:
           specification:
-            - topic: shellypro3em-34987a466638/events/rpc
+            - topic: shellypro3em-08d1f912f61c/events/rpc
               key:
                 - params,em:0,total_act_power
               parameter:
                 - power-consumption
-            - topic: shellypro3em-34987a466638/online
+            - topic: shellypro3em-08d1f912f61c/online
               key: []
               parameter:
                 - machine-state
-            - topic: shellypro3em-34987a466638/events/rpc
+            - topic: shellypro3em-08d1f912f61c/events/rpc
               key:
                 - params,em:0,total_current
               parameter:
                 - total-current
-            - topic: shellypro3em-34987a466638/events/rpc
+            - topic: shellypro3em-08d1f912f61c/events/rpc
               key:
                 - params,em:0,a_current
               parameter:
                 - active-current
-            - topic: shellypro3em-34987a466638/events/rpc
+            - topic: shellypro3em-08d1f912f61c/events/rpc
               key:
                 - params,em:0,a_voltage
               parameter:
