@@ -1,4 +1,4 @@
-ip_address: 192.168.168.116
+#ip_address: 192.168.168.116
 main_topic: ''
 protocol: opcua
 app_config: 
