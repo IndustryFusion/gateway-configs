@@ -5,25 +5,25 @@ app_config:
    fusionopcuadataservice:
         specification:
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.State
+            identifier: s=Model.MachineInfo.Fusion.MachineState
             parameter: machine-state
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.CurrentMeasurement.VoltageL1
+            identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.VoltageL1
             parameter: voltage-l1
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.CurrentMeasurement.VoltageL2
+            identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.VoltageL2
             parameter: voltage-l2
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.CurrentMeasurement.VoltageL2
+            identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.VoltageL2
             parameter: voltage-l2
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL1
+            identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.CurrentL1
             parameter: current-strength-l1
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL2
+            identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.CurrentL2
             parameter: current-strength-l2
           - node_id: ns=2
-            identifier: s=Model.MachineInfo.CurrentMeasurement.CurrentL3
+            identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.CurrentL3
             parameter: current-strength-l3
           - node_id: ns=2
             identifier: s=Model.MachineInfo.Fusion.MediumName
@@ -31,6 +31,9 @@ app_config:
           - node_id: ns=2
             identifier: s=Model.MachineInfo.Fusion.TargetPressure
             parameter: target-pressure
+          - node_id: ns=2
+            identifier: s=Model.MachineInfo.Fusion.MaterialThinkness
+            parameter: material-thickness
 pod_name: mse-smartfl-mqtt-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
 pdt_mqtt_port: 8883
