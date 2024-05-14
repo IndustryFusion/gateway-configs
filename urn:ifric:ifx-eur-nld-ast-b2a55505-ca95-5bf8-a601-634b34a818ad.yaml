@@ -1,0 +1,43 @@
+ip_address: '192.168.49.26'
+main_topic: 'shellypro3em-fcb467058c54/online'
+protocol: mqtt
+app_config:
+   fusionmqttdataservice:
+          specification:
+            - topic: shellypro3em-fcb467058c54/events/rpc
+              key:
+                - params,em:0,total_act_power
+              parameter:
+                - power-consumption
+            - topic: shellypro3em-fcb467058c54/online
+              key: []
+              parameter:
+                - machine-state
+            - topic: shellypro3em-fcb467058c54/events/rpc
+              key:
+                - params,em:0,total_current
+              parameter:
+                - total-current
+            - topic: shellypro3em-fcb467058c54/events/rpc
+              key:
+                - params,em:0,a_current
+              parameter:
+                - active-current
+            - topic: shellypro3em-fcb467058c54/events/rpc
+              key:
+                - params,em:0,a_voltage
+              parameter:
+                - active-voltage
+ 
+pod_name: shelly-euromaster-bending-machine-mqtt-prod
+pdt_mqtt_hostname: alerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-b2a55505-ca95-5bf8-a601-634b34a818ad
+gateway_id: urn:ifric:ifx-eur-nld-ast-b2a55505-ca95-5bf8-a601-634b34a818ad
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionmqttdataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.2
