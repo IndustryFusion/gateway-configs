@@ -8,7 +8,7 @@ app_config:
               key:
                 - params,em:0,total_act_power
               parameter:
-                - power_consumption
+                - power-consumption
 pod_name: shelly-smartfl-mqtt-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
 pdt_mqtt_port: 8883
