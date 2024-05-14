@@ -1,10 +1,10 @@
 ip_address: '192.168.49.26'
-main_topic: 'shellypro3em-08d1f912f61c/online'
+main_topic: 'shellypro3em-34987a466638/online'
 protocol: mqtt
 app_config:
    fusionmqttdataservice:
           specification:
-            - topic: shellypro3em-08d1f912f61c/events/rpc
+            - topic: shellypro3em-34987a466638/events/rpc
               key:
                 - params,em:0,total_act_power
               parameter:
