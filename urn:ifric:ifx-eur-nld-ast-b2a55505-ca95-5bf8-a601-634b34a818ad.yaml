@@ -1,5 +1,5 @@
 ip_address: '192.168.49.26'
-main_topic: 'shellypro3em-fcb467058c54/online'
+main_topic: 'shellypro3em-fcb467058c54/events/rpc'
 protocol: mqtt
 app_config:
    fusionmqttdataservice:
