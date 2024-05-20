@@ -1,0 +1,21 @@
+ip_address: ''
+main_topic: ''
+protocol: opc-ua
+app_config: |-
+  |fusionopcuadataservice:
+          specification:
+            - node_id: ns=4
+              identifier: i=39
+              parameter: machine-state
+pod_name: MSF Pro-opc-ua
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-61c86d45-d8b6-5ace-bf9d-35335e834ecf
+gateway_id: urn:ifric:ifx-eur-nld-ast-61c86d45-d8b6-5ace-bf9d-35335e834ecf
+keycloak_url: ''
+realm_password: '1233344'
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
