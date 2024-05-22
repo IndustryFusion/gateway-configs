@@ -1,0 +1,16 @@
+ip_address: 45.90.90.874
+main_topic: airTracker/test
+protocol: mqtt
+app_config: '|addsad'
+pod_name: AirTrackerTest001-mqtt
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 5645
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-ef625a93-765a-53ee-914a-9c2d715bde03
+gateway_id: urn:ifric:ifx-eur-nld-ast-ef625a93-765a-53ee-914a-9c2d715bde03
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
