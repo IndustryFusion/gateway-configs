@@ -1,8 +1,8 @@
 ip_address: 45.90.90.874
 main_topic: airTracker/test
-protocol: mqtt
-app_config: '|addsad'
-pod_name: AirTrackerTest001-mqtt
+protocol: ''
+app_config: '|urueurewur'
+pod_name: ''
 pdt_mqtt_hostname: ''
 pdt_mqtt_port: 5645
 secure_config: true
