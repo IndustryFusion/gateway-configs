@@ -1,0 +1,16 @@
+ip_address: 78.90.08.877
+main_topic: ''
+protocol: opc-ua
+app_config: '|hjkgg'
+pod_name: LaserCutter00XY1-opc-ua
+pdt_mqtt_hostname: ffssfs
+pdt_mqtt_port: 0
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-71930104-a6dd-5412-bad4-a5235e3d1e96
+gateway_id: urn:ifric:ifx-eur-nld-ast-71930104-a6dd-5412-bad4-a5235e3d1e96
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
