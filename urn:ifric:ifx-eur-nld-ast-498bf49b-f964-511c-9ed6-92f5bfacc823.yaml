@@ -1,0 +1,16 @@
+ip_address: ''
+main_topic: ''
+protocol: opc-ua
+app_config: '|hfhgdhgdhf'
+pod_name: filtercatridge001-opc-ua
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 9089
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-498bf49b-f964-511c-9ed6-92f5bfacc823
+gateway_id: urn:ifric:ifx-eur-nld-ast-498bf49b-f964-511c-9ed6-92f5bfacc823
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
