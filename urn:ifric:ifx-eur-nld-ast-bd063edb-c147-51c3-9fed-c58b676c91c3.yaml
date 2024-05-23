@@ -1,0 +1,16 @@
+ip_address: ''
+main_topic: ''
+protocol: 'NULL'
+app_config: "\_ {\n\_\_\_\_\_\_ \"fusionmqttdataservice\": {\n\_\_\_\_\_\_\_\_\_\_ \"specification\": [\n\_\_\_\_\_\_\_\_\_\_\_\_\_ {\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"topic\": \"airtracker-74145/relay1\",\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"key\": [],\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"parameter\": [\"machine-state\"]\n\_\_\_\_\_\_\_\_\_\_\_\_\_ },\n\_\_\_\_\_\_\_\_\_\_\_\_\_ {\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"topic\": \"airtracker-74145/dust\",\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"key\": [],\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"parameter\": [\"dustiness\"]\n\_\_\_\_\_\_\_\_\_\_\_\_\_ },\n\_\_\_\_\_\_\_\_\_\_\_\_\_ {\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"topic\": \"airtracker-74145/temperature\",\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"key\": [],\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"parameter\": [\"temperature\"]\n\_\_\_\_\_\_\_\_\_\_\_\_\_ },\n\_\_\_\_\_\_\_\_\_\_\_\_\_ {\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"topic\": \"airtracker-74145/humidity\",\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"key\": [],\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"parameter\": [\"humidity\"]\n\_\_\_\_\_\_\_\_\_\_\_\_\_ },\n\_\_\_\_\_\_\_\_\_\_\_\_\_ {\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"topic\": \"airtracker-74145/noise\",\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"key\": [],\n\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \"parameter\": [\"noise\"]\n\_\_\_\_\_\_\_\_\_\_\_\_\_ }\n\_\_\_\_\_\_\_\_\_\_ ]\n\_\_\_\_\_\_ }\n\_\_\_ }"
+pod_name: power102source-null
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-bd063edb-c147-51c3-9fed-c58b676c91c3
+gateway_id: urn:ifric:ifx-eur-nld-ast-bd063edb-c147-51c3-9fed-c58b676c91c3
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
