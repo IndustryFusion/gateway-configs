@@ -1,8 +1,30 @@
 ip_address: ''
 main_topic: ''
-protocol: mqtt
-app_config: '|'
-pod_name: filtercatridge002-mqtt
+protocol: ''
+app_config:
+  fusionmqttdataservice:
+    specification:
+      - topic: airtracker-74145/relay1
+        key: []
+        parameter:
+          - machine-state
+      - topic: airtracker-74147/dust
+        key: []
+        parameter:
+          - dustiness
+      - topic: airtracker-74149/temperature
+        key: []
+        parameter:
+          - temperature
+      - topic: airtracker-74140/humidity
+        key: []
+        parameter:
+          - humidity
+      - topic: airtracker-74145/noise
+        key: []
+        parameter:
+          - noise
+pod_name: ''
 pdt_mqtt_hostname: ''
 pdt_mqtt_port: 0
 secure_config: false
