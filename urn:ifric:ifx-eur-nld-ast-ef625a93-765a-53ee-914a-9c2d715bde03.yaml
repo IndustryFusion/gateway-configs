@@ -4,11 +4,11 @@ protocol: ''
 app_config:
   fusionmqttdataservice:
     specification:
-      - topic: airtracker-74145/relay1
+      - topic: airtracker-74148/relay1
         key: []
         parameter:
           - machine-state
-      - topic: airtracker-74147/dust
+      - topic: airtracker-74107/dust
         key: []
         parameter:
           - dustiness
@@ -20,13 +20,13 @@ app_config:
         key: []
         parameter:
           - humidity
-      - topic: airtracker-74145/noise
+      - topic: airtracker-74140/noise
         key: []
         parameter:
           - noise
 pod_name: ''
 pdt_mqtt_hostname: ''
-pdt_mqtt_port: 5645
+pdt_mqtt_port: 5690
 secure_config: true
 device_id: urn:ifric:ifx-eur-nld-ast-ef625a93-765a-53ee-914a-9c2d715bde03
 gateway_id: urn:ifric:ifx-eur-nld-ast-ef625a93-765a-53ee-914a-9c2d715bde03
