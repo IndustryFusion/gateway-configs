@@ -8,15 +8,15 @@ app_config:
         key: []
         parameter:
           - machine-state
-      - topic: airtracker-74107/dust
+      - topic: airtracker-74100/dust
         key: []
         parameter:
           - dustiness
-      - topic: airtracker-74149/temperature
+      - topic: airtracker-74109/temperature
         key: []
         parameter:
           - temperature
-      - topic: airtracker-74140/humidity
+      - topic: airtracker-74170/humidity
         key: []
         parameter:
           - humidity
