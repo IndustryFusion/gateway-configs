@@ -1,0 +1,47 @@
+ip_address: '789.90'
+main_topic: ''
+protocol: 'NULL'
+app_config: |-
+  |{
+         "fusionmqttdataservice": {
+             "specification": [
+                {
+                    "topic": "airtracker-74145/relay1",
+                    "key": [],
+                    "parameter": ["machine-state"]
+                },
+                {
+                    "topic": "airtracker-74145/dust",
+                    "key": [],
+                    "parameter": ["dustiness"]
+                },
+                {
+                    "topic": "airtracker-74145/temperature",
+                    "key": [],
+                    "parameter": ["temperature"]
+                },
+                {
+                    "topic": "airtracker-74145/humidity",
+                    "key": [],
+                    "parameter": ["humidity"]
+                },
+                {
+                    "topic": "airtracker-74145/noise",
+                    "key": [],
+                    "parameter": ["noise"]
+                }
+             ]
+         }
+      }
+pod_name: airfilter66-null
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-16e680b5-021d-5d22-8a5a-28ab61efd01b
+gateway_id: urn:ifric:ifx-eur-nld-ast-16e680b5-021d-5d22-8a5a-28ab61efd01b
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
