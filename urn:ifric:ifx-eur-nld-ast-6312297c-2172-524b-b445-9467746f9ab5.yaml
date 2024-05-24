@@ -1,0 +1,38 @@
+ip_address: ''
+main_topic: ''
+protocol: modbus
+app_config:
+  fusionmqttdataservice:
+    specification:
+      - topic: airtracker-74148/relay1
+        key: []
+        parameter:
+          - machine-state
+      - topic: airtracker-74107/dust
+        key: []
+        parameter:
+          - dustiness
+      - topic: airtracker-74149/temperature
+        key: []
+        parameter:
+          - temperature
+      - topic: airtracker-74140/humidity
+        key: []
+        parameter:
+          - humidity
+      - topic: airtracker-74140/noise
+        key: []
+        parameter:
+          - noise
+pod_name: lcutter-modbus
+pdt_mqtt_hostname: ''
+pdt_mqtt_port: 0
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-6312297c-2172-524b-b445-9467746f9ab5
+gateway_id: urn:ifric:ifx-eur-nld-ast-6312297c-2172-524b-b445-9467746f9ab5
+keycloak_url: ''
+realm_password: ''
+username_config: ''
+password_config: ''
+dataservice_image_config: ''
+agentservice_image_config: ''
