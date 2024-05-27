@@ -1,0 +1,38 @@
+ip_address: 456.90.94
+main_topic: ''
+protocol: opc-ua
+app_config:
+  fusionmqttdataservice:
+    specification:
+      - topic: airtracker-74145/relay1
+        key: []
+        parameter:
+          - machine-state
+      - topic: airtracker-74140/dust
+        key: []
+        parameter:
+          - dustiness
+      - topic: airtracker-74185/temperature
+        key: []
+        parameter:
+          - temperature
+      - topic: airtracker-74155/humidity
+        key: []
+        parameter:
+          - humidity
+      - topic: airtracker-74190/noise
+        key: []
+        parameter:
+          - noise
+pod_name: plasmacutter00xy002-opc-ua
+pdt_mqtt_hostname: erer
+pdt_mqtt_port: 4534
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-fbe370a9-3667-5b12-8ff5-ee9cd0dfa0ab
+gateway_id: urn:ifric:ifx-eur-nld-ast-fbe370a9-3667-5b12-8ff5-ee9cd0dfa0ab
+keycloak_url: ewe
+realm_password: 23d
+username_config: ww
+password_config: wq
+dataservice_image_config: gfdg
+agentservice_image_config: dfgagent
