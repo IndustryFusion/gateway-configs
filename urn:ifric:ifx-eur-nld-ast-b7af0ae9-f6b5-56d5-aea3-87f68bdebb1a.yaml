@@ -1,4 +1,4 @@
-ip_address: 343.00.909.4
+ip_address: 901.90.45.98
 main_topic: ''
 protocol: 'NULL'
 app_config:
@@ -8,31 +8,31 @@ app_config:
         key: []
         parameter:
           - machine-state
-      - topic: airtracker-74145/dust
+      - topic: airtracker-74140/dust
         key: []
         parameter:
           - dustiness
-      - topic: airtracker-74145/temperature
+      - topic: airtracker-74185/temperature
         key: []
         parameter:
           - temperature
-      - topic: airtracker-74145/humidity
+      - topic: airtracker-74155/humidity
         key: []
         parameter:
           - humidity
-      - topic: airtracker-74145/noise
+      - topic: airtracker-74190/noise
         key: []
         parameter:
           - noise
 pod_name: airtracker908-null
-pdt_mqtt_hostname: fdfd
-pdt_mqtt_port: 4433
-secure_config: false
+pdt_mqtt_hostname: tyee
+pdt_mqtt_port: 9089
+secure_config: true
 device_id: urn:ifric:ifx-eur-nld-ast-b7af0ae9-f6b5-56d5-aea3-87f68bdebb1a
 gateway_id: urn:ifric:ifx-eur-nld-ast-b7af0ae9-f6b5-56d5-aea3-87f68bdebb1a
-keycloak_url: dff
-realm_password: ff
+keycloak_url: eer
+realm_password: aa90
 username_config: ''
 password_config: ''
-dataservice_image_config: dd
-agentservice_image_config: fdd
+dataservice_image_config: ssad
+agentservice_image_config: ssadagent
