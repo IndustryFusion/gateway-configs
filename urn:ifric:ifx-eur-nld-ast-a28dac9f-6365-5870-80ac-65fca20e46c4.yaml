@@ -1,0 +1,15 @@
+ip_address: 189.90.09
+main_topic: ''
+protocol: 'NULL'
+pod_name: airtracker345-null
+pdt_mqtt_hostname: ere
+pdt_mqtt_port: 3433
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-a28dac9f-6365-5870-80ac-65fca20e46c4
+gateway_id: urn:ifric:ifx-eur-nld-ast-a28dac9f-6365-5870-80ac-65fca20e46c4
+keycloak_url: dsdsd
+realm_password: eew
+username_config: ''
+password_config: ''
+dataservice_image_config: er
+agentservice_image_config: rewr
