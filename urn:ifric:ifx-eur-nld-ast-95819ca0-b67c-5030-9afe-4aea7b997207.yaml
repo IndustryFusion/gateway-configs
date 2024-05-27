@@ -1,0 +1,15 @@
+ip_address: '678.90'
+main_topic: ''
+protocol: 'NULL'
+pod_name: airfilter56-null
+pdt_mqtt_hostname: sdsad
+pdt_mqtt_port: 4543
+secure_config: false
+device_id: urn:ifric:ifx-eur-nld-ast-95819ca0-b67c-5030-9afe-4aea7b997207
+gateway_id: urn:ifric:ifx-eur-nld-ast-95819ca0-b67c-5030-9afe-4aea7b997207
+keycloak_url: fdfdsaf
+realm_password: ii90
+username_config: ''
+password_config: ''
+dataservice_image_config: dfd
+agentservice_image_config: fdds
