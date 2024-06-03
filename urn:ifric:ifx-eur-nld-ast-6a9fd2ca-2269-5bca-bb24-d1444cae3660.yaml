@@ -7,7 +7,7 @@ app_config:
           - topic: airtracker-74145/relay1
             key: []
             parameter:
-              - machine-state
+              - machine_state
           - topic: airtracker-74145/dust
             key: []
             parameter:
