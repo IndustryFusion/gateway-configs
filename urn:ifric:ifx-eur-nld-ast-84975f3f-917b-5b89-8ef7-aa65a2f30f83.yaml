@@ -49,13 +49,13 @@ app_config:
           - node_id: ns=1
             identifier: s=Write.Transmitter_1_ActPressure[1]
             parameter: gms2-transmitter-1-act-pressure
-           - node_id: ns=1
+          - node_id: ns=1
             identifier: s=Write.Transmitter_2_ActPressure[0]
             parameter: gms1-transmitter-2-act-pressure
           - node_id: ns=1
             identifier: s=Write.Transmitter_2_ActPressure[1]
             parameter: gms2-transmitter-2-act-pressure
-           - node_id: ns=1
+          - node_id: ns=1
             identifier: s=Write.Transmitter_3_ActPressure[0]
             parameter: gms1-transmitter-3-act-pressure
           - node_id: ns=1
