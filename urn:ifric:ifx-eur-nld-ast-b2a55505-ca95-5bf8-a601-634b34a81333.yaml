@@ -5,19 +5,19 @@ app_config:
    fusionopcuadataservice:
         specification:
           - node_id: ns=4
-            identifier: s=21
+            identifier: i=21
             parameter: machine-state
-          - node_id: ns=2
-            identifier: s=168
+          - node_id: ns=4
+            identifier: i=168
             parameter: voltage-l1
           - node_id: ns=4
-            identifier: s=169
+            identifier: i=169
             parameter: voltage-l2
           - node_id: ns=4
-            identifier: s=170
+            identifier: i=170
             parameter: voltage-l3
           - node_id: ns=4
-            identifier: s=175
+            identifier: i=175
             parameter: power-consumption
 pod_name: lissmac-deburring-opcua-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
