@@ -7,8 +7,8 @@ app_config:
           - node_id: ns=4
             identifier: s=21
             parameter: machine-state
-          - node_id: ns=4
-            identifier: s=4:r_U_L2_N
+          - node_id: ns=2
+            identifier: s=168
             parameter: voltage-l1
           - node_id: ns=4
             identifier: s=169
