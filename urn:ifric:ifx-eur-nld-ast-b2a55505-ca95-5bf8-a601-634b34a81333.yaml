@@ -1,0 +1,33 @@
+ip_address: '192.168.56.11'
+main_topic: ''
+protocol: opcua
+app_config:
+   fusionopcuadataservice:
+        specification:
+          - node_id: ns=4
+            identifier: s=21
+            parameter: machine-state
+          - node_id: ns=4
+            identifier: s=168
+            parameter: voltage-l1
+          - node_id: ns=4
+            identifier: s=169
+            parameter: voltage-l2
+          - node_id: ns=4
+            identifier: s=170
+            parameter: voltage-l3
+          - node_id: ns=4
+            identifier: s=175
+            parameter: power-consumption
+pod_name: lissmac-deburring-opcua-prod
+pdt_mqtt_hostname: alerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-b2a55505-ca95-5bf8-a601-634b34a81333
+gateway_id: urn:ifric:ifx-eur-nld-ast-b2a55505-ca95-5bf8-a601-634b34a81333
+keycloak_url: https://alerta.industry-fusion.com/auth/realms
+realm_password: RVbGQDlZeAgSesiRBiZ5TAvfGsBMX7mC
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:smart-gcu
+agentservice_image_config: iff-iot-agent:v0.0.2
