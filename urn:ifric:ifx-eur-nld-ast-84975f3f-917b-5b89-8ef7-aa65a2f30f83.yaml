@@ -37,6 +37,42 @@ app_config:
           - node_id: ns=1
             identifier: s=Write.SourceSwitchPressure[1]
             parameter: gms2-source-switch-pressure
+          - node_id: ns=1
+            identifier: s=Write.OperatingMode[0]
+            parameter: gms1-operating-mode
+          - node_id: ns=1
+            identifier: s=Write.OperatingMode[1]
+            parameter: gms2-operating-mode
+          - node_id: ns=1
+            identifier: s=Write.Transmitter_1_ActPressure[0]
+            parameter: gms1-transmitter-1-act-pressure
+          - node_id: ns=1
+            identifier: s=Write.Transmitter_1_ActPressure[1]
+            parameter: gms2-transmitter-1-act-pressure
+           - node_id: ns=1
+            identifier: s=Write.Transmitter_2_ActPressure[0]
+            parameter: gms1-transmitter-2-act-pressure
+          - node_id: ns=1
+            identifier: s=Write.Transmitter_2_ActPressure[1]
+            parameter: gms2-transmitter-2-act-pressure
+           - node_id: ns=1
+            identifier: s=Write.Transmitter_3_ActPressure[0]
+            parameter: gms1-transmitter-3-act-pressure
+          - node_id: ns=1
+            identifier: s=Write.Transmitter_3_ActPressure[1]
+            parameter: gms2-transmitter-3-act-pressure
+          - node_id: ns=1
+            identifier: s=Write.SourceRightActVolume[0]
+            parameter: gms1-right-tank-volume
+          - node_id: ns=1
+            identifier: s=Write.SourceRightActVolume[1]
+            parameter: gms2-right-tank-volume
+          - node_id: ns=1
+            identifier: s=Write.SourceLeftActVolume[0]
+            parameter: gms1-left-tank-volume
+          - node_id: ns=1
+            identifier: s=Write.SourceLeftActVolume[1]
+            parameter: gms2-left-tank-volume
 pod_name: gcu-opc-ua-prod
 pdt_mqtt_hostname: alerta.industry-fusion.com
 pdt_mqtt_port: 8883
