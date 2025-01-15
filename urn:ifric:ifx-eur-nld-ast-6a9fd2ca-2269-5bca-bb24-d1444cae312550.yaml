@@ -1,1 +1,38 @@
-
+ip_address: ''
+main_topic: ''
+protocol: mqtt
+app_config:
+  fusionmqttdataservice:
+    specification:
+      - topic: airtracker-74145/relay1
+        key: []
+        parameter:
+          - https://industryfusion.github.io/contexts/tutorial/v0.1-dev/ontology/v0.1-dev/fields/machine_state
+      - topic: airtracker-74145/dust
+        key: []
+        parameter:
+          - https://industryfusion.github.io/contexts/tutorial/v0.1-dev/ontology/v0.1-dev/fields/dustiness
+      - topic: airtracker-74145/temperature
+        key: []
+        parameter:
+          - https://industryfusion.github.io/contexts/tutorial/v0.1-dev/ontology/v0.1-dev/fields/temperature
+      - topic: airtracker-74145/humidity
+        key: []
+        parameter:
+          - https://industryfusion.github.io/contexts/tutorial/v0.1-dev/ontology/v0.1-dev/fields/humidity
+      - topic: airtracker-74145/noise
+        key: []
+        parameter:
+          - https://industryfusion.github.io/contexts/tutorial/v0.1-dev/ontology/v0.1-dev/fields/noise
+pod_name: airtracker-mqtt-demo
+pdt_mqtt_hostname: devalerta.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-6a9fd2ca-2269-5bca-bb24-d1444cae312550
+gateway_id: urn:ifric:ifx-eur-nld-ast-6a9fd2ca-2269-5bca-bb24-d1444cae312550
+keycloak_url: https://development.industry-fusion.com/auth/realms
+realm_password: Abgp70pHTu2rP44IrouxImGkY0LM3P2T
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionmqttdataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.3
