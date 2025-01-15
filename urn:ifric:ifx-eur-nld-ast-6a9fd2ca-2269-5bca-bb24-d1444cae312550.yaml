@@ -1,5 +1,5 @@
-ip_address: ''
-main_topic: ''
+ip_address: 212.227.245.168
+main_topic: airtracker-74145/relay1
 protocol: mqtt
 app_config:
   fusionmqttdataservice:
