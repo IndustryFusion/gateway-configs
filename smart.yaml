@@ -1,0 +1,35 @@
+fusionopcuadataservice:
+  specification:
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.MachineState
+      parameter: https://industry-fusion.org/base/v0.1/machine_state
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.VoltageL1
+      parameter: https://industry-fusion.org/base/v0.1/voltage_l1
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.VoltageL2
+      parameter: https://industry-fusion.org/base/v0.1/voltage_l2
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.VoltageL3
+      parameter: https://industry-fusion.org/base/v0.1/voltage_l3
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.CurrentL1
+      parameter: https://industry-fusion.org/base/v0.1/current_strength_l1
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.CurrentL2
+      parameter: https://industry-fusion.org/base/v0.1/current_strength_l2
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.CurrentL3
+      parameter: https://industry-fusion.org/base/v0.1/current_strength_l3
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.MediumName
+      parameter: https://industry-fusion.org/base/v0.1/medium_name
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.TargetPressure
+      parameter: https://industry-fusion.org/base/v0.1/target_pressure
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.MaterialThinkness
+      parameter: https://industry-fusion.org/base/v0.1/material_thickness
+    - node_id: ns=2
+      identifier: s=Model.MachineInfo.Fusion.CurrentMeasurement.ElectricPower
+      parameter: https://industry-fusion.org/base/v0.1/power_consumption
